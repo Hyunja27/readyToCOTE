@@ -15,7 +15,9 @@ if gameMap[pos[0]][pos[1]] != 0:
     print("map error")
     exit
 
+
 elsecount = 0
+
 
 print('???')
 while 1:
