@@ -1,6 +1,9 @@
 raw,col = map(int, input().split())
 raw_pos, col_pos, direct = map(int, (input().split()))
 
+
+
+
 # gameMap = [[0] *raw for i in range(col)]
 gameMap = []
 
