@@ -8,4 +8,5 @@ while n != 1:
     else:
         n = n / k
         i += 1
+        
 print(i)
