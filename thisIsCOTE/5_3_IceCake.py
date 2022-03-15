@@ -18,6 +18,11 @@ def makeIceCake(col_p, row_p, idx):
         makeIceCake(col_p + 1, row_p, idx)
     if (row_p + 1 < row) and map[col_p][row_p + 1] == "0":
         makeIceCake(col_p, row_p + 1, idx)
+    if (col_p -1 > 0) and map[col_p - 1][row_p] == "0":
+        makeIceCake(col_p - 1, row_p, idx)
+    if (row_p -1 > 0) and map[col_p][row_p - 1] == "0":
+        makeIceCake(col_p, row_p - 1, idx)
+    
 
 
 for i in range(col):
